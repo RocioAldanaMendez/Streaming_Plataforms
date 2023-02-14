@@ -100,7 +100,8 @@ Para este proyecto solo se solicitaron 4 tipos de consultas.
 | [<img src="https://avatars.githubusercontent.com/u/83037176?v=4" width=115><br><sub>Rocío Méndez</sub>](https://github.com/RocioAldanaMendez) |
 | :---: | 
 
-## VIDEO (5 min)
+## VIDEO (<7 min)
+<img src="https://www.vectorlogo.zone/logos/youtube/youtube-ar21.svg"/> 
 
 ## CONCLUSIÓN
 

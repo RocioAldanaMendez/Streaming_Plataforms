@@ -44,7 +44,7 @@ La propuesta de trabajo se llevará a cabo en las siguientes etapas:
 6. Ajuste de parámetros del modelo
 7. Realización de un deployment en Delta 
 
-![Demo](https://raw.githubusercontent.com/RocioAldanaMendez/Meteorite-Landings/main/assets/contexto.jpeg)
+(https://github.com/RocioAldanaMendez/Streaming_Platforms/tree/main/aseets/Arquitectura.jpg)
 
 ## ESTADO:
 <h4 align="center">

@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&height=300&section=header&text=%20Machine%20Learning%20Operations%20(MLOps),%20Rocío%20Méndez&fontSize=30&&color=15:92a8d1,100:f7cac9&desc=%20%20&fontColor=ff6347&fontAlignY=35)
+![header](https://capsule-render.vercel.app/api?type=waving&height=300&section=header&text=%20Machine%20Learning%20Operations%20(MLOps)&fontSize=30&&color=15:92a8d1,100:f7cac9&desc=%20%20&fontColor=ff6347&fontAlignY=35)
 
 
 ## INDICE:
@@ -80,8 +80,8 @@ Para este proyecto solo se solicitaron 4 tipos de consultas.
 - `Funcionalidad 3`: Consultar cantidad de películas por plataforma con filtro de Plataforma.
 - `Funcionalidad 4`: Consultar actor que más se repite según la Plataforma y Año.
 - `Demo`: 
-(https://github.com/RocioAldanaMendez/Streaming_Platforms/demo.gif)
 
+![demo](https://github.com/RocioAldanaMendez/Streaming_Platforms/demo.gif)
 
 ## ACCESO AL PROYECTO
             \## 📁 Acceso al proyecto

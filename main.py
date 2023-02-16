@@ -41,7 +41,7 @@ def startup():
 async def about():
     return 'API created with FastAPI and Uvicorn'
 
-#API 1) consigna número 1:  Cantidad de veces que aparece una keyword en el título de peliculas/series, por plataforma
+#API 1) Película con mayor duración con filtros opcionales de AÑO, PLATAFORMA Y TIPO DE DURACIÓN. (la función debe llamarse get_max_duration(year, platform, duration_type))
 @app.get("/get_max_duration")
 def get_max_duration_pd1(release_year: int = None, source: str = None, duration_type: str = None):
     # Filtrar el DataFrame
@@ -65,7 +65,7 @@ para contar la cantidad de veces que aparece una palabra clave en los títulos.
 La funcion nos pide como parametro un string para la 'keyword'y opcionalmente un string para la plataforma.
 """  
 
-#API 2)
+#API 2) Cantidad de películas por plataforma con un puntaje mayor a XX en determinado año (la función debe llamarse get_score_count(platform, scored, year))
 @app.get("/get_score_count/{plataforma}/{ScoreMedio}/{release_year}")
 def get_score_count(plataforma: str, ScoreMedio: int, release_year:int):
     # Contar el número de veces que se cumple la condición
@@ -79,7 +79,7 @@ para contar la cantidad de veces que aparece una palabra clave en los títulos.
 La funcion nos pide como parametro un string para la 'keyword'y opcionalmente un string para la plataforma.
 """  
 
-#API 3)
+#API 3) Cantidad de películas por plataforma con filtro de PLATAFORMA. (La función debe llamarse get_count_platform(platform))
 @app.get("/get_count_platform/{source}")
 def get_count_platform(source:str):
     # Filtrar por plataforma
@@ -95,7 +95,7 @@ para contar la cantidad de veces que aparece una palabra clave en los títulos.
 La funcion nos pide como parametro un string para la 'keyword'y opcionalmente un string para la plataforma.
 """ 
 
-#API 4)
+#API 4) Actor que más se repite según plataforma y año. (La función debe llamarse get_actor(platform, year))
 @app.get("/get_actor({source}/{release_year}")
 def get_actor(source:str, release_year:int):
     # Filtrar por año y plataforma

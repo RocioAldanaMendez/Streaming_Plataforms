@@ -74,9 +74,9 @@ def get_score_count(plataforma: str, ScoreMedio: int, release_year:int):
     # Devolver la cantidad de veces que se cumple la condición
     return cantidad
 """
-El código anterior usa el método str.count() de las columnas del dataframe
-para contar la cantidad de veces que aparece una palabra clave en los títulos.
-La funcion nos pide como parametro un string para la 'keyword'y opcionalmente un string para la plataforma.
+El código anterior se encarga de contar cuantas peliculas hay en una plataforma
+específica con un puntaje mayor a un valor específico y en un año específico.
+    Prueba unitaria: https://localhost/disney/2/2018
 """  
 
 #API 3) Cantidad de películas por plataforma con filtro de PLATAFORMA. (La función debe llamarse get_count_platform(platform))
@@ -90,9 +90,7 @@ def get_count_platform(source:str):
 
     return result.to_dict(orient='records')
 """
-El código anterior usa el método str.count() de las columnas del dataframe
-para contar la cantidad de veces que aparece una palabra clave en los títulos.
-La funcion nos pide como parametro un string para la 'keyword'y opcionalmente un string para la plataforma.
+El código anterior ...
 """ 
 
 #API 4) Actor que más se repite según plataforma y año. (La función debe llamarse get_actor(platform, year))
@@ -110,7 +108,5 @@ def get_actor(source:str, release_year:int):
     else:
         return actor_count.index[0]
 """
-El código anterior usa el método str.count() de las columnas del dataframe
-para contar la cantidad de veces que aparece una palabra clave en los títulos.
-La funcion nos pide como parametro un string para la 'keyword'y opcionalmente un string para la plataforma.
+El código anterior ...
 """  

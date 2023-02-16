@@ -80,7 +80,7 @@ Para este proyecto solo se solicitaron 4 tipos de consultas.
 - `Funcionalidad 3`: Consultar cantidad de películas por plataforma con filtro de Plataforma.
 - `Funcionalidad 4`: Consultar actor que más se repite según la Plataforma y Año.
 - `Demo`: 
-
+(https://github.com/RocioAldanaMendez/Streaming_Platforms/demo.gif)
 
 
 ## ACCESO AL PROYECTO

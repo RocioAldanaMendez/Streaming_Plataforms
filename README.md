@@ -81,7 +81,9 @@ Para este proyecto solo se solicitaron 4 tipos de consultas.
 - `Funcionalidad 4`: Consultar actor que más se repite según la Plataforma y Año.
 - `Demo`: 
 
-![demo](https://github.com/RocioAldanaMendez/Streaming_Platforms/demo.gif)
+![demo](https://github.com/RocioAldanaMendez/Streaming_Platforms/blob/main/demo.gif)
+
+
 
 ## ACCESO AL PROYECTO
             \## 📁 Acceso al proyecto
